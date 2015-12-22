@@ -1,2 +1,2 @@
 # auto-switchingLanguages
-auto-switching between keyboard layouts Russian and English languages JavaScript
+auto-switching betwen keyboard layouts Russian and English languages JavaScript
