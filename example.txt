@@ -1,0 +1,24 @@
+
+
+
+$("#input").attr("lang", "eng");
+
+//or
+
+$("#input").attr("lang", "rus");
+$("#input").attr("checkCase", "low");
+
+//or
+
+$("#input").attr("checkCase", "low");
+
+
+
+
+
+$("#input").keypress(function(event) {
+							if (event.which != 13) {
+								blockCapsLockAndKeyboardLayout(event, this);
+								return false;
+							}
+						});
